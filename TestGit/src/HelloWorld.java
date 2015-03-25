@@ -12,6 +12,8 @@ public class HelloWorld {
 		String[] s = {"hello","test"};
 		
 		System.out.println("another line here");
+		
+		System.out.println("I'm the first commiter");
 
 	}
 

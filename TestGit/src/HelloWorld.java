@@ -10,6 +10,8 @@ public class HelloWorld {
 			System.out.println("Test");
 		}
 		String[] s = {"hello","test"};
+		
+		System.out.println("another line here");
 
 	}
 

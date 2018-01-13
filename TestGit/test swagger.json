@@ -1,0 +1,44 @@
+{
+  "swagger": "2.0",
+  "paths": {
+    "/INTEGRATION/ITD/REQUEST/{REQUEST_ID}/GET_REQUEST": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "name": "REQUEST_ID",
+            "in": "path",
+            "allowMultiple": false,
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "x-auth-type": "Application & Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    }
+  },
+  "info": {
+    "title": "req",
+    "version": "1.0.0",
+    "description": "get request"
+  },
+  "securityDefinitions": {
+    "default": {
+      "type": "oauth2",
+      "authorizationUrl": "https://ec2-54-235-213-193.compute-1.amazonaws.com:8243/authorize",
+      "flow": "implicit",
+      "scopes": {}
+    }
+  },
+  "basePath": "/req/1.0.0",
+  "host": "ec2-54-235-213-193.compute-1.amazonaws.com:8243",
+  "schemes": [
+    "https",
+    "http"
+  ]
+}
